@@ -40,7 +40,7 @@ tasks.named('test') {
 }
 jib {
     from {
-        image = "openjdk:217"
+        image = "openjdk:17"
     }
     to {
         image = "rldh9037/notification-batch"
